@@ -1,0 +1,4 @@
+#ifndef WDT_Register_H_
+#define WDT_Register_H_
+#define WDTCR *((volatile u8 *)0x41)
+#endif
